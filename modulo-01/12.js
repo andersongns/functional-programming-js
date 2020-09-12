@@ -6,7 +6,6 @@ const cart = [
     { name: 'Product 5', qtd: 1, price: 9.99 },
 ]
 
-const getName = item => item.name;
 const getProductsQuantityGreaterThan3 = item => item.qtd > 3;
 
 const products = cart.filter(getProductsGreateThan3);
